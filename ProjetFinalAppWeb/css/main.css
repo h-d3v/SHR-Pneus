@@ -1,0 +1,436 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    position: relative;
+    background-color: #d6d6d66e;
+    min-height: 100%;
+}
+
+.main-top{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    height: 600px;
+    background-image: url("../view/pictures/back-ground/background.jpg");
+    background-size: cover;
+}
+
+#main-top{
+    background-image: none;
+}
+
+.left-contain{
+    float: left;
+    display: flex;
+    height: 90%;
+    width: 50%;
+}
+
+.form_container{
+    margin: auto;
+    height: 80%;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.75);
+}
+
+.container{
+    margin: auto;
+    height: 90%;
+    width: 90%;
+    background-color: white;
+}
+
+#form_container-recherche{
+    width: 1200px;
+    font-size: 14px;
+    height: 140px;
+}
+
+.titre-recherche{
+    text-align: center;
+    margin: 20px;
+}
+
+.recherche-tab{
+    width: 100%;
+    text-align: center;
+}
+
+.recherche-tab td{
+    padding: 5px;
+}
+
+.recherche-tab th{
+    padding: 10px;
+
+}
+
+.recherche-tab img{
+    margin-top: 10px;
+    height: 25px;
+}
+
+.recherche-tab select{
+    width: 75px;
+    height: 25px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    background-color:  rgb(114, 180, 14);;
+}
+
+.right-contain{
+    display: flex;
+    float: right;
+    height: 90%;
+    width: 50%;
+}
+
+.main-middle{
+    width:1280px;
+    margin: 0 auto;
+}
+
+.logo-diaporama{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    height: 35px;
+}
+
+.logo-anufacturiers{
+    margin: 10px;
+    height: 100%;
+}
+
+.grandePub{
+    height:40%;
+    max-height: 200px;
+    max-width: 1200px;
+    width: calc(100% - 260px);
+    border: darkgray 3px solid;
+    border-radius: 10px;
+    margin-left:80px;
+    margin-right: 80px;
+    margin-top:30px;
+    margin-bottom: 15px;
+    background-color: lightgrey;
+    padding-top:20px;
+    font-family: "Arial";
+    padding-left:100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.grandePub p {
+    color:red;
+    display:block;
+    margin-top:50px;
+    font-size: 1.5em;
+}
+
+.grandePub h3{
+    color:dimgrey;
+}
+
+
+
+.iconeCamion{
+    max-width:150px;
+    float:left;
+    margin:auto;
+}
+
+.petitePub{
+    height: 200px;
+    display: inline-block;
+    width: calc(50% - 125px);
+    max-width:600px;
+    border: darkgray 3px solid;
+    border-radius: 10px;
+    margin-left:80px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    background-color: lightgrey;
+    font-family: "Arial";
+    text-align: center;
+    overflow: hidden;
+}
+
+.petitePub img{
+    height: 100%;
+}
+
+
+.petitePub p {
+    color:red;
+    display:block;
+    font-size: 1.5em;
+}
+
+
+.petitePub h3{
+    color:dimgrey;
+    display:block;
+}
+
+.petite-icone-placeholder{
+    height:30px;
+    width: 30px;
+}
+
+#login-container{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 40, 40, 0.80);
+}
+
+.login-contain{
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    height: 450px;
+    width: 500px;
+    background-color: black;
+    color: white;
+}
+
+.login-contain{
+    text-align: center;
+}
+
+.login-contain a{
+    display: block;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+}
+
+.login-contain form{
+    margin: auto;
+}
+
+.input-container{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#pass-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+}
+
+.login-contain label{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.log-input{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 30px;
+}
+
+.btn-login{
+    background-color: rgb(114, 180, 14);
+}
+
+.result-count{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.article-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    z-index: 10;
+}
+
+.image-container{
+    height: 110px;
+    width: 110px;
+    margin: 0 20px;
+    background-color: white;
+}
+
+.remise{
+    position: relative;
+    top: -50%;
+    transform: rotate(-15deg);
+    font-size: 28px;
+    font-weight: 800;
+    color: red;
+    text-align: center;
+}
+
+.article-container img{
+    margin: 0 auto;
+    height: 110px;
+}
+
+.article-info{
+    margin-left: 30px;
+}
+
+.article-info table{
+    width : 700px;
+    margin-top: 10px;
+}
+
+.article-info th{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.article-stock{
+    font-size: 14px;
+    width: 85px;
+    height: 80px;
+    margin-left: 40px;
+    background-color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 12px;
+    line-height: 20px;
+}
+
+.nbStock{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.backgroundRed{
+    background-color:red;
+}
+
+.red{
+    color:red;
+}
+
+.orange{
+    color:orange;
+}
+
+.vert{
+    color: rgb(114, 180, 14);
+}
+
+.color-info{
+    color: lightblue;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.order-part{
+    margin-left: 35px;
+    text-align: center;
+}
+
+.order-part h3{
+    text-align: center;
+    font-size: 20;
+    margin-bottom: 10px;
+}
+
+.old-price{
+    text-decoration: line-through solid red 3px;;
+    font-size: 18px;
+}
+
+.order-part select{
+    display: block;
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-commande{
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgb(114, 180, 14);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.formulaireCompte{
+    font-size: 18px;
+}
+
+.compteTitle{
+    font-size: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 15px;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.formulaireCompte table{
+    margin: 0 auto;
+}
+
+.formulaireCompte td{
+    padding: 4px;
+}
+
+.formulaireCompte input{
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.conteneurMenuAdmin{
+    height: 500px;
+    display: flex;
+    
+}
+
+.contenuMenuAdmin{
+    margin: auto ;
+    
+}
+
+hr {
+    margin:10px;
+}

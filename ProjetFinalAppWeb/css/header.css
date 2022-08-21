@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-width: 1280px;
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    padding-top: 10px;
+    height: 140px;
+    box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.75);
+}
+
+.logo{
+    float: left;
+    margin-left: 10px;
+    height: 95%;
+}
+
+.top_header{
+    height: 70px;
+}
+
+.bottom_header{
+    height: 70px;
+}
+
+.top_header h2{
+    color: red;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5vh;
+    font-size: 1.2em;
+}
+
+.iconPlaceHolder{
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.compteLink{
+    float: right;
+    height: 70px;
+    line-height: 70px;
+    padding-right: 10px;
+}
+
+.compteLink h4{
+    float: left;
+}
+
+.compteLink a{
+    text-decoration: none;
+    color: black;
+}
+
+#panier-notEmpty{
+    height: 20px;
+}
+
+.iconCart{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    height: 50px;
+    border-left: solid 1px black;
+    color: red; 
+}
+
+.nav_top{
+    position: relative;
+    text-align: right;
+    line-height: 70px;
+}
+
+
+
+.nav_link{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+    text-align: center;
+    font-size: 13px;
+    background-color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+
+.nav_link a{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav_link_active a {
+    color: red;
+}
+
+.nav_link_active:hover{
+    background-color: black;
+}
+
+.menu-manufacturier-hidden{
+    display: none;
+    position: absolute;
+    width: 153px;
+    transition-delay: 1s;
+}
+
+
+
+#menu-manufacturier li{
+    list-style-type: none;
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+}
+
+#menu-manufacturier li:hover{
+   background-color: black;
+}
+
+
+#nav-link-manufacturier{
+    position: relative;
+}
+
+.nav_link:hover{
+    color: red;
+    background-color:rgb(60, 60, 60);
+}
+
+#menu-manufacturier li:hover{
+    color: red;
+    background-color:rgb(60, 60, 60);
+}

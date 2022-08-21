@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+        background-color: aquamarine;
+        min-width: 100%;
+    }
+
+    .header{
+        width: 100%;
+        background-color: black;
+    }
+
+    .logo{
+        clear: both;
+        margin: 0 auto;
+        width: 200px;
+        height: auto;
+        border: 1px solid red;
+    }
+
+    .main-top{
+        width: 100%;
+    }
+
+    .top_header h2{
+        display: none;
+    }
+    .iconPlaceHolder{
+        display: none;
+    }
+
+    .bottom_header{
+        display: none;
+    }
+
+    .right-contain{
+        display: none;
+    }
+
+    .logo-diaporama{
+        display: block;
+    }
+
+
+
+  }
